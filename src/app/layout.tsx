@@ -17,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="ja">
+      <body className="container mx-auto bg-slate-700 text-slate-50">
         <Header />
         {children}
         <Footer />

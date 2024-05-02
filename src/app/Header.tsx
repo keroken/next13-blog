@@ -10,7 +10,7 @@ const Header = () => {
         </h1>
       </div>
       <nav className="text-sm font-medium">
-        <Link href="/articles/new" className="bg-blue-100 px-3 py-3 rounded-md">記事を書く</Link>
+        <Link href="/articles/new" className="bg-slate-500 px-3 py-3 rounded-md">記事を書く</Link>
       </nav>
     </header>
   )
